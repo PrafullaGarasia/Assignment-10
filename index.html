@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        Prafulla Garasia
+    </h1>
+    <form id="form" action="/register" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" /><br>
+        <label for="password1">Password:</label>
+        <input type="password" id="password1" name="password1" /><br>
+        <label for="password2">Confirm your password:</label>
+        <input type="password" id="password2" name="password2" /><br>
+        <label><input type="checkbox" value="accept" id="checkbox">I accept the terms of service</label><br>
+        <label for="countries">Locations:</label>
+        <select id="countries" name="countries">
+            <!--<option value="IN">India</option>
+    <option value="CA">Canada</option>
+    <option value="US">United States</option>-->
+            <option value="select">Select your country</option>
+        </select><br>
+        <input type="submit" id="submit" value="submit" />
+    </form>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
